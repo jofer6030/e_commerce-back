@@ -49,3 +49,5 @@ export class PrismaService
     );
   }
 }
+
+// https://youtu.be/RjMvgpeoSuw?t=4973
