@@ -10,7 +10,7 @@ import {
 export class RegisterDto {
   @IsEmail({}, { message: 'Please provide a valid email address' })
   @IsNotEmpty({ message: 'Email is required' })
-  email!: string;
+  email: string;
 
   @IsString()
   @IsNotEmpty({ message: 'Password is required' })
@@ -22,7 +22,7 @@ export class RegisterDto {
         'Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character',
     },
   )
-  password!: string;
+  password: string;
 
   @IsOptional()
   @IsString()

@@ -1,11 +1,11 @@
 import { Role } from '@prisma/client';
 
 export class AuthResponseDto {
-  accessToken!: string;
+  accessToken: string;
 
-  refreshToken!: string;
+  refreshToken: string;
 
-  user!: {
+  user: {
     id: number;
     email: string;
     firstName: string | null;
