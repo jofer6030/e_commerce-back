@@ -9,6 +9,6 @@ export class AuthController {
 
   async register(@Body() registerDto: RegisterDto): Promise<AuthResponseDto> {
     return await this.authService.register(registerDto);
-    // https://youtu.be/RjMvgpeoSuw?t=5924
+    // https://youtu.be/RjMvgpeoSuw?t=7288
   }
 }
